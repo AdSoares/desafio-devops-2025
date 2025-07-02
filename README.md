@@ -72,9 +72,9 @@ k6 run test-load.js
 
 ## 🔧 Sugestões de melhoria
 
-- Adicionar autenticação via OAuth2 (Keycloak/Auth0)
-- Expor mais métricas reais (CPU, mem, HTTP status)
-- Implementar pipeline CI/CD com GitHub Actions
-- Externalizar cache Redis por volume persistente
-- Adotar Helm Charts ou Kustomize para Kubernetes
-- Realizar testes de carga com k6 para simular uso intensivo
+- 🔲 Adicionar autenticação via OAuth2 (Keycloak/Auth0)
+- 🔲 Expor mais métricas reais (CPU, mem, HTTP status)
+- 🔲 Implementar pipeline CI/CD com GitHub Actions
+- 🔲 Externalizar cache Redis por volume persistente
+- 🔲 Adotar Helm Charts ou Kustomize para Kubernetes 
+- ✅ Realizar testes de carga com k6 para simular uso intensivo 
