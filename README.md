@@ -33,6 +33,8 @@ Acesse:
 
 Ferramenta: https://www.drawio.com/ - Arquivo para edição disponível no diretório diagrama
 
+---
+
 ## 📁 Estrutura do projeto
 
 /devops2025\
