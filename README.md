@@ -47,22 +47,22 @@ Acesse:
 
 📦 1. Instalar o k6
 
-- Linux
+- Linux\
 sudo apt install k6
 
-- Mac
+- Mac\
 brew install k6
 
-- Windows (via Chocolatey)
+- Windows (via Chocolatey)\
 choco install k6
 
 ▶️ 2. Executar o teste
 
-Suba o docker-compose:
+- Suba o docker-compose:
 
 docker-compose up --build
 
-Em outro terminal, execute o arquivo load-teste/k6/test-load.js:
+- Em outro terminal, execute o arquivo load-teste/k6/test-load.js:
 
 k6 run test-load.js
 
