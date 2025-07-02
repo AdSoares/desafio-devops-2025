@@ -29,17 +29,17 @@ Acesse:
 
 ## 📁 Estrutura do projeto
 
-/devops2025
-├── app-dotnet/         = Aplicação .NET
-├── app-node/           = Aplicação Node.js
-├── diagrama/           = Diagrama de Arquitetura
-├── infra/           
-│   └── prometheus/     = Setup Prometheus
-│   └── grafana/        = Setup Grafana
-│       └── dashboards/ = Setup Dashboards Grafana
-├── load-test/           
-│   └── k6/             = Teste de carga usando k6
-└── README.md
+/devops2025\
+├── app-dotnet/         = Aplicação .NET\
+├── app-node/           = Aplicação Node.js\
+├── diagrama/           = Diagrama de Arquitetura\
+├── infra/           \
+│   └── prometheus/     = Setup Prometheus\
+│   └── grafana/        = Setup Grafana\
+│       └── dashboards/ = Setup Dashboards Grafana\
+├── load-test/           \
+│   └── k6/             = Teste de carga usando k6\
+└── README.md\
 
 ---
 
