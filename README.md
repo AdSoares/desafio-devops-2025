@@ -14,7 +14,7 @@ Este repositório contém a solução completa para o desafio DevOps 2025 com:
 
 ```bash
 git clone <repositorio>
-cd DevOps2025
+cd desafio-devops-2025
 docker-compose up --build
 ```
 
