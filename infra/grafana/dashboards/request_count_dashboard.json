@@ -1,0 +1,23 @@
+{
+    "id": null,
+    "title": "Contagem de Requisições",
+    "schemaVersion": 37,
+    "version": 1,
+    "refresh": "10s",
+    "panels": [
+      {
+        "type": "timeseries",
+        "title": "Requests por Rota",
+        "targets": [
+          {
+            "expr": "sum(rate(http_requests_received_total[1m])) by (method, handler)",
+            "legendFormat": "{{method}} {{handler}}",
+            "refId": "A"
+          }
+        ],
+        "datasource": "Prometheus",
+        "gridPos": { "x": 0, "y": 0, "w": 24, "h": 8 }
+      }
+    ]
+  }
+  

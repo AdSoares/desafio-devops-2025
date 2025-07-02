@@ -1,0 +1,23 @@
+{
+    "id": null,
+    "title": "Tempo Médio de Resposta",
+    "schemaVersion": 37,
+    "version": 1,
+    "refresh": "10s",
+    "panels": [
+      {
+        "type": "timeseries",
+        "title": "Duração média das requisições",
+        "targets": [
+          {
+            "expr": "rate(http_request_duration_seconds_sum[1m]) / rate(http_request_duration_seconds_count[1m])",
+            "legendFormat": "avg duration",
+            "refId": "A"
+          }
+        ],
+        "datasource": "Prometheus",
+        "gridPos": { "x": 0, "y": 0, "w": 24, "h": 8 }
+      }
+    ]
+  }
+  

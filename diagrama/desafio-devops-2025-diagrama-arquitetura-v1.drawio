@@ -1,0 +1,124 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" version="27.2.0">
+  <diagram name="Página-1" id="Bk-PEMKNVGIWV_J3GO5a">
+    <mxGraphModel dx="2058" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="light-dark(#FFFFFF,#525252)" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TnX_SlHu90YJFo4dxAUr-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="TnX_SlHu90YJFo4dxAUr-1" target="TnX_SlHu90YJFo4dxAUr-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TnX_SlHu90YJFo4dxAUr-11" value="Requisição" style="edgeLabel;html=1;align=center;verticalAlign=top;resizable=0;points=[];labelPosition=center;verticalLabelPosition=bottom;labelBackgroundColor=none;" vertex="1" connectable="0" parent="TnX_SlHu90YJFo4dxAUr-8">
+          <mxGeometry x="-0.3016" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TnX_SlHu90YJFo4dxAUr-1" value="Usuário" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="260" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TnX_SlHu90YJFo4dxAUr-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="TnX_SlHu90YJFo4dxAUr-4" target="TnX_SlHu90YJFo4dxAUr-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TnX_SlHu90YJFo4dxAUr-10" value="Requisição" style="edgeLabel;html=1;align=center;verticalAlign=top;resizable=0;points=[];fontColor=default;labelBackgroundColor=none;labelPosition=center;verticalLabelPosition=bottom;" vertex="1" connectable="0" parent="TnX_SlHu90YJFo4dxAUr-9">
+          <mxGeometry x="-0.3016" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TnX_SlHu90YJFo4dxAUr-4" value="Usuário" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="450" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TnX_SlHu90YJFo4dxAUr-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TnX_SlHu90YJFo4dxAUr-7" target="TnX_SlHu90YJFo4dxAUr-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TnX_SlHu90YJFo4dxAUr-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="TnX_SlHu90YJFo4dxAUr-7" target="TnX_SlHu90YJFo4dxAUr-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="200" as="sourcePoint" />
+            <mxPoint x="610" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="140" />
+              <mxPoint x="610" y="140" />
+              <mxPoint x="610" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TnX_SlHu90YJFo4dxAUr-7" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;LOAD&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;BALANCER&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;[DOCKER COMPOSE NETWORK]&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#EEEEEE,#DEDEDE);strokeColor=#36393d;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="200" width="100" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="TnX_SlHu90YJFo4dxAUr-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;startArrow=block;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="TnX_SlHu90YJFo4dxAUr-12" target="TnX_SlHu90YJFo4dxAUr-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TnX_SlHu90YJFo4dxAUr-31" value="Dados" style="edgeLabel;html=1;align=right;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;labelPosition=left;verticalLabelPosition=middle;" vertex="1" connectable="0" parent="TnX_SlHu90YJFo4dxAUr-22">
+          <mxGeometry x="0.56" y="-2" relative="1" as="geometry">
+            <mxPoint x="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TnX_SlHu90YJFo4dxAUr-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TnX_SlHu90YJFo4dxAUr-12" target="TnX_SlHu90YJFo4dxAUr-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TnX_SlHu90YJFo4dxAUr-32" value="Metricas" style="edgeLabel;html=1;align=right;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;labelPosition=left;verticalLabelPosition=middle;" vertex="1" connectable="0" parent="TnX_SlHu90YJFo4dxAUr-28">
+          <mxGeometry x="0.28" relative="1" as="geometry">
+            <mxPoint x="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TnX_SlHu90YJFo4dxAUr-12" value="&lt;div style=&quot;color: rgb(230, 237, 243); background-color: rgb(13, 17, 23); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;app-dotnet&lt;/div&gt;&lt;div style=&quot;color: rgb(230, 237, 243); background-color: rgb(13, 17, 23); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(230, 237, 243); background-color: rgb(13, 17, 23); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;.NET API &lt;/div&gt;&lt;div style=&quot;color: rgb(230, 237, 243); background-color: rgb(13, 17, 23); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;(Port 5000)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="320" y="300" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="TnX_SlHu90YJFo4dxAUr-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;startArrow=blockThin;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="TnX_SlHu90YJFo4dxAUr-14" target="TnX_SlHu90YJFo4dxAUr-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TnX_SlHu90YJFo4dxAUr-30" value="Dados" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;labelPosition=right;verticalLabelPosition=middle;" vertex="1" connectable="0" parent="TnX_SlHu90YJFo4dxAUr-21">
+          <mxGeometry x="0.08" y="-1" relative="1" as="geometry">
+            <mxPoint x="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TnX_SlHu90YJFo4dxAUr-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TnX_SlHu90YJFo4dxAUr-14" target="TnX_SlHu90YJFo4dxAUr-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TnX_SlHu90YJFo4dxAUr-33" value="Metricas" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;labelPosition=right;verticalLabelPosition=middle;" vertex="1" connectable="0" parent="TnX_SlHu90YJFo4dxAUr-29">
+          <mxGeometry y="-3" relative="1" as="geometry">
+            <mxPoint x="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TnX_SlHu90YJFo4dxAUr-14" value="&lt;div style=&quot;color: rgb(230, 237, 243); background-color: rgb(13, 17, 23); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;app-node&lt;/div&gt;&lt;div style=&quot;color: rgb(230, 237, 243); background-color: rgb(13, 17, 23); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(230, 237, 243); background-color: rgb(13, 17, 23); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;.NET API &lt;/div&gt;&lt;div style=&quot;color: rgb(230, 237, 243); background-color: rgb(13, 17, 23); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;(Port 5000)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="450" y="300" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="TnX_SlHu90YJFo4dxAUr-17" value="REDIS&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;[CACHE]&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="290" y="200" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TnX_SlHu90YJFo4dxAUr-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TnX_SlHu90YJFo4dxAUr-25" target="TnX_SlHu90YJFo4dxAUr-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TnX_SlHu90YJFo4dxAUr-35" value="Metricas" style="edgeLabel;html=1;align=center;verticalAlign=top;resizable=0;points=[];labelBackgroundColor=none;labelPosition=center;verticalLabelPosition=bottom;" vertex="1" connectable="0" parent="TnX_SlHu90YJFo4dxAUr-34">
+          <mxGeometry x="-0.12" y="3" relative="1" as="geometry">
+            <mxPoint y="58" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TnX_SlHu90YJFo4dxAUr-25" value="PROMETHEUS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" vertex="1" parent="1">
+          <mxGeometry x="290" y="480" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TnX_SlHu90YJFo4dxAUr-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TnX_SlHu90YJFo4dxAUr-26" target="TnX_SlHu90YJFo4dxAUr-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TnX_SlHu90YJFo4dxAUr-38" value="Dashboards" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="TnX_SlHu90YJFo4dxAUr-36">
+          <mxGeometry x="-0.075" relative="1" as="geometry">
+            <mxPoint x="3" y="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TnX_SlHu90YJFo4dxAUr-26" value="GRAFANA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" vertex="1" parent="1">
+          <mxGeometry x="630" y="200" width="70" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="TnX_SlHu90YJFo4dxAUr-27" value="Analistas" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="780" y="355" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TnX_SlHu90YJFo4dxAUr-40" value="&lt;div style=&quot;color: rgb(230, 237, 243); background-color: rgb(13, 17, 23); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;&lt;span style=&quot;color: rgb(121, 192, 255); font-weight: bold;&quot;&gt;Desafio Devops 2025 - Diagrama da Arquitetura&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="220" y="40" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TnX_SlHu90YJFo4dxAUr-41" value="Requisição" style="edgeLabel;html=1;align=center;verticalAlign=top;resizable=0;points=[];labelPosition=center;verticalLabelPosition=bottom;labelBackgroundColor=none;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="420" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="TnX_SlHu90YJFo4dxAUr-42" value="Requisição" style="edgeLabel;html=1;align=center;verticalAlign=top;resizable=0;points=[];labelPosition=center;verticalLabelPosition=bottom;labelBackgroundColor=none;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="290" y="340" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

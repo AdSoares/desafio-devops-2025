@@ -1,0 +1,11 @@
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: 'dotnetapi'
+    static_configs:
+      - targets: ['dotnetapi:5060']
+
+  - job_name: 'nodeapi'
+    static_configs:
+      - targets: ['nodeapi:3000']

@@ -1,0 +1,23 @@
+{
+    "id": null,
+    "title": "Status HTTP",
+    "schemaVersion": 37,
+    "version": 1,
+    "refresh": "10s",
+    "panels": [
+      {
+        "type": "timeseries",
+        "title": "Códigos HTTP por segundo",
+        "targets": [
+          {
+            "expr": "sum(rate(http_requests_total[1m])) by (code)",
+            "legendFormat": "{{code}}",
+            "refId": "A"
+          }
+        ],
+        "datasource": "Prometheus",
+        "gridPos": { "x": 0, "y": 0, "w": 24, "h": 8 }
+      }
+    ]
+  }
+  

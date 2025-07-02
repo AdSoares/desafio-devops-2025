@@ -1,0 +1,29 @@
+{
+    "id": null,
+    "title": "Metricas de HTTP",
+    "timezone": "browser",
+    "schemaVersion": 37,
+    "version": 1,
+    "refresh": "5s",
+    "panels": [
+      {
+        "type": "timeseries",
+        "title": "Request Duration",
+        "targets": [
+          {
+            "expr": "http_request_duration_seconds_sum",
+            "legendFormat": "{{handler}}",
+            "refId": "A"
+          }
+        ],
+        "datasource": "Prometheus",
+        "gridPos": {
+          "h": 8,
+          "w": 24,
+          "x": 0,
+          "y": 0
+        }
+      }
+    ]
+  }
+  
