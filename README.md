@@ -27,6 +27,10 @@ Acesse:
 
 ---
 
+## 📊 Diagrama da Arquitetura
+
+![Diagrama de Arquitetura](diagrama/desafio-devops-2025-digrama-arquitetura-v2.drawio.png?raw=true)
+
 ## 📁 Estrutura do projeto
 
 /devops2025\
@@ -65,10 +69,6 @@ docker-compose up --build
 k6 run test-load.js
 
 ---
-
-## 📊 Diagrama da Arquitetura
-
-![Diagrama de Arquitetura](diagrama/desafio-devops-2025-digrama-arquitetura-v2.drawio.png?raw=true)
 
 ## 🔧 Sugestões de melhoria
 
