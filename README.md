@@ -31,6 +31,9 @@ Acesse:
 
 ![Diagrama de Arquitetura](diagrama/desafio-devops-2025-digrama-arquitetura-v2.drawio.png?raw=true)
 
+Ferramenta: https://www.drawio.com/\
+Arquivo para edição disponível no diretório diagrama
+
 ## 📁 Estrutura do projeto
 
 /devops2025\
