@@ -78,5 +78,5 @@ k6 run test-load.js
 - 🔲 Externalizar cache Redis por volume persistente
 - 🔲 Adotar Helm Charts ou Kustomize para Kubernetes
 - 🔲 Implementar testes automatizados nas APIs
-- 🔲 Melhorar arquitetura dos projetos de APIs conforme evolução dos requisitos (DDD, Onion Arc, Port/Adapters, etc.)
+- 🔲 Melhorar arquitetura das APIs conforme evolução dos requisitos (DDD, Onion Arc, Port/Adapters, etc.)
 - ✅ Realizar testes de carga com k6 para simular uso intensivo 
